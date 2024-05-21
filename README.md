@@ -2,7 +2,8 @@
 ## Description
 <p>This is my personal website where I describe who I am, the technologies that I am familar with and the personal coding projects I have done. My website includes a home, about, project, and contact section.</p> 
 
-<p> Link to website:<a href = "https://davidb200.github.io"> davidb200.github.io </a> </p>
+<b> Link to website: </b> 
+<a href = "https://davidb200.github.io"> davidb200.github.io </a>
 
 ## Technologies Used
 <p> HTML 5 and CSS </p>
@@ -21,3 +22,4 @@
 <a href="https://www.bestpractices.dev/projects/8466"><img src="https://www.bestpractices.dev/projects/8466/badge"></a><br>
 <a href="https://securityscorecards.dev/viewer/?uri=github.com/davidb200/davidb200.github.io"><img src="https://api.securityscorecards.dev/projects/github.com/davidb200/davidb200.github.io/badge" alt="OpenSSF Scorecard" style="margin: 0 10%;"></a>
 </div>
+
