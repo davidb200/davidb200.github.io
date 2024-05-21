@@ -4,8 +4,8 @@
 ## Technologies Used
 <p> HTML 5 and CSS </p>
 <div class="technologies" style="display:flex;">
-<img src = "https://seeklogo.com/images/H/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png" width="200px" height="200px">
-<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="200px" height="200px" style="margin:0 5%;">
+<img src = "https://seeklogo.com/images/H/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png" width="200px" height="200px">  
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="200px" height="200px" style="margin:0 10%;">
 </div>
 <br>
 
