@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        form {
+            max-width: 50%;
+            margin: 2% auto;
+            background-color: #fff;
+            padding: 2%;
+            border-radius: 3.5%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="email"],
+        input[type="subject"],
+        textarea {
+            margin-top:3%;
+            width: 100%;
+            padding: 10px;
+            margin-bottom:4%;
+            border: 1px solid #ccc;
+            border-radius: 1%;
+            box-sizing: border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        textarea {
+            height: 150px;
+        }
+        input[type="submit"] {
+            background-color: rgb(70, 112, 201);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class = "active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Contact Me</h1>
+
+    <!-- Send Email using web3forms API -->
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="3edfb47d-403f-4d98-bd5c-3e9c14f9b55b">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+        <label for="subject">Subject:</label>
+        <input type="subject" name="subject" placeholder="Subject" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+        
+        <input type="submit" value="Submit" onClick="sendEmail()">
+    </form>
+</body>
+</html>

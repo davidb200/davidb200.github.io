@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class = "active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Projects</h1>
+
+    <div class="programming-logos">
+        <a href="#C++ projects">
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt = "C++ logo" width = 200px height=200px>
+        </a>
+        <a href="#Python projects">
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python logo" width=200px height=200px>
+        </a>
+        <a href="#SQL projects">
+        <img src = "https://www.svgrepo.com/show/331760/sql-database-generic.svg" alt= "SQL logo" width=200px height=200px>
+        </a>
+    </div>
+
+    <div class = "projects">
+        <hr class="seperator">
+        <div id = "C++ projects">
+        <h1 style="text-align:center;">C++ projects</h1>
+        <h2 style="display:inline;">Mario Fireball Game</h2>
+        <div class = "links" style="display:inline;">
+            <a href = "https://github.com/davidb200/Mario-Fireball-Game" class="repo-btn">Link to Repo</a>
+        </div>
+        <p>In this game, Mario has to doge fireballs that are coming from the sky. For every fireball he doges, he is rewarded points. However, if a 
+            fireball hits him, he loses health. The game has three main states: A main menu, game, 
+            and game over screen. The project is coded in C++ and is implmented with SFML, 
+            a Graphical User Interface (GUI) framework that is common to use for video games in C++, 
+            and uses Object-Oriented Programming (OOP) concepts such as encapsulation, abstraction, 
+            and inheritance.</p>
+
+        <p>Below is a demo of running the game:</p>
+        <div class="video-container">
+            <video width="640" height="360" controls>
+                <source src="https://github.com/davidb200/MARIO-FIREBALL-GAME/assets/101841853/820c6af2-25d5-4d94-af01-7916e68da00a" type="video/mp4">
+                Browser does not support video
+            </video>
+        </div>
+        <br><br>
+
+        <h2 style="display:inline;">Rover</h2>
+        <div class = "links" style="display:inline;">
+            <a href = "https://github.com/davidb200/Rover" class="repo-btn">Link to Repo</a>
+        </div>
+        <p>An embedded programming project where I worked alongside a team to make a rover that navigates a maze in C++ using Arduino and AVR
+           libraries. The rover can: turn left/right, stop, move, veer, be remote controlled, and dance. The Arduino features used for the rover
+           were: IR remote, ultrasonic sensor, servo, DC motors, LED's.The width of the course was roughly 28 inches apart and 6 inches high. 
+        </p>
+        </div>
+
+        <hr class="seperator">
+        <div id = "Python projects">
+        <h1 style="text-align:center;">Python Projects</h1>
+        <h2 style="display:inline">GDP Calculator</h2>
+        <div class = "links" style="display:inline;">
+            <a href = "https://github.com/davidb200/Integration-Project" class="repo-btn">Link to Repo</a>
+        </div>
+        <p>Wrote a program that calculates GDP given necessary inputs. The program follows the PEP 8 style guide.</p>
+        </div>
+
+        <hr class="seperator">
+        <div id = "SQL projects">
+        <h1 style="text-align:center">SQL Projects</h1>
+        <h2 style="display:inline"> NFL Management System</h2>
+        <div class = "links" style="display:inline;">
+            <a href = "https://github.com/DaveWestFGCU/NFL_Database_Project" class="repo-btn">Link to Repo</a>
+        </div>
+        <p>Created an NFL Management System using data enginnering concepts to manage NFL players, teams, conferences, 
+            and stadiums of the 2023 - 2024 regular NFL season. The database system allows for fans, sports anlaysts, 
+            or coaches to find out any relevant information regarding NFL stats for the 2023-2024 season. 
+            It is implemented using tools like postgreSQL, Jupyter Notebook, and Python (For scraping NFL data online).</p>
+        </div>
+    </div>
+
+</body>
+</html>
