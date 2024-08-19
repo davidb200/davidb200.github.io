@@ -97,7 +97,7 @@ p{
 }
 
 .programming-logos img:hover{
-    transform: scale(1.4); 
+    transform: scale(1.75); 
 }
 
 .programming-logos a{
@@ -149,7 +149,7 @@ p{
 }
 
 .tech-tools-imgs img:hover{
-    transform: scale(1.4); 
+    transform: scale(1.75); 
 }
 
 .tech-tools-imgs img{
