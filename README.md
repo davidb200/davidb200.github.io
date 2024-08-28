@@ -1,7 +1,9 @@
-# davidb200.github.io
+# Personal Portfolio Website
 ## Description
 <p>This is my personal website where I describe who I am, the technologies that I am familar with and the personal coding projects I have done. My website includes a home, about, project, and contact section.</p> 
 
+## Deployment
+I used GitHub pages to deploy my website. <br>
 <b> Link to website: </b> 
 <a href = "https://davidb200.github.io"> davidb200.github.io </a>
 
