@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
+    <script src = "contact.js"></script>
+
+    </script>
     <style>
         form {
             max-width: 50%;
@@ -57,20 +60,21 @@
 
     <h1>Contact Me</h1>
 
-    <!-- Send Email using web3forms API -->
-    <form action="https://api.web3forms.com/submit" method="POST">
+    <form method = "POST" id="form">
         <input type="hidden" name="access_key" value="3edfb47d-403f-4d98-bd5c-3e9c14f9b55b">
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="off" required>
     
         <label for="subject">Subject:</label>
-        <input type="subject" name="subject" placeholder="Subject" required><br>
+        <input type="subject" id="subject" name="subject" placeholder="Subject" autocomplete="off" required><br>
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+        <textarea id="message" name="message" placeholder="Enter your message" autocomplete="off" required></textarea>
         
-        <input type="submit" value="Submit" onClick="sendEmail()">
+        <input type="submit" value="submit">
+
+        <div id="result"></div>
     </form>
 </body>
 </html>
